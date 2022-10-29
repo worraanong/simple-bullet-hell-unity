@@ -15,9 +15,13 @@ PrefabInstance:
       propertyPath: bullet
       value: 
       objectReference: {fileID: 7084562318053457768, guid: 2562c8c48e683e845a8a78ed5f3deb9e, type: 3}
+    - target: {fileID: 7008667727527687299, guid: 043ff5d4ec1fd994baeb7dba674d1fce, type: 3}
+      propertyPath: fireRate
+      value: 1.2
+      objectReference: {fileID: 0}
     - target: {fileID: 7008667727527687301, guid: 043ff5d4ec1fd994baeb7dba674d1fce, type: 3}
       propertyPath: m_Name
-      value: EnemyLinearAutoLock Variant
+      value: EnemyAutoLock
       objectReference: {fileID: 0}
     - target: {fileID: 7008667727527687311, guid: 043ff5d4ec1fd994baeb7dba674d1fce, type: 3}
       propertyPath: m_RootOrder
