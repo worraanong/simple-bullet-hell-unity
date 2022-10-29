@@ -183,7 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 6669260644254322086, guid: 06e348868a02d6d4f84f086e61efd5ca, type: 3}
   gun: {fileID: 1720136628467420374}
-  fireRate: 0.5
+  fireRate: 0.9
 --- !u!61 &7008667727527687298
 BoxCollider2D:
   m_ObjectHideFlags: 0

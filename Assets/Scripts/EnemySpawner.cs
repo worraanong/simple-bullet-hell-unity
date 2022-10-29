@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
@@ -25,6 +24,7 @@ public class EnemySpawner : MonoBehaviour
         {
             if (hardest != 5) hardest = GameStat.Kills / 3;
             var t = Random.Range(0, hardest);
+
             RandomPlace(enemyTypes[t]);
         }
     }
@@ -35,6 +35,12 @@ public class EnemySpawner : MonoBehaviour
         var yPos = Random.Range(yMin, yMax);
         var pos = new Vector3(xPos, yPos, 0);
         Instantiate(enemy, pos, transform.rotation);
+    }
+
+    IEnumerator AddSpawnGap()
+    {
+        yield return new WaitForSeconds(1);
+
     }
 
 }
